@@ -1,58 +1,85 @@
-#sun
-{
-  position: absolute;
-  top:30px;
-  left:0px;
-  background-color: yellow;
-  width:100%;
-  height: 200px;
-  width:200px;
-  border-radius:100%;
+body {
+  background-image: url("http://blenderartists.org/forum/attachment.php?attachmentid=144817&d=1308500563");
+   background-size: cover;
+  background-repeat: no-repeat;
 }
 
-#mars
-{
+#sun {
   position:relative;
-  top:30px;
-  left:200px;
-  background-color: orange;
-  width:100%;
-  height: 200px;
-  width:200px;
-  border-radius:100%;
+  height: 100px;
+  width: 100px;
+  left: 550px;
+   bottom: -180px;
 }
 
-#header
-{
-  background-color: #3D3D1F;
-  width:300px;
+#mercury {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  left: 580px; 
+    bottom: -180px;
 }
 
-#header p
-{
-  color: white;
-  text-align: center;
+#venus {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  left: 590px; 
+    bottom: -90px;
 }
 
-#content
-{
-  position:relative;
-  background-color: #777762;
-  width:300px;
-  height: 250px;
-  bottom:16px;
-  z-index:-1;
+#earth {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  right: -410px; 
+   bottom: -5px;
 }
 
-#content pre
-{
-  text-align:center;
+#mars {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  left: 200px; 
+    bottom: -350px;
 }
 
-#popup
-{
-  position:relative;
-  top:50px;
-  left:0px;
-  
+#jupiter {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  left: 500px; 
+   bottom: -500px;
+}
+
+#saturn {
+  position: relative;
+  height: 70px;
+  width: 70px;
+   left: 673px; 
+    bottom: -310px; 
+}
+
+#uranus {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  left: 693px; 
+   bottom: -50px; 
+}
+
+#neptune {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  left: 550px; 
+   bottom: 550px; 
+}
+
+#pluto {
+  position: relative;
+  height: 50px;
+  width: 50px;
+   left: 600px; 
+    bottom: 600px; 
 }
