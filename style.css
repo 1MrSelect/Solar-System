@@ -58,6 +58,16 @@ body {
   width: 70px;
    left: 673px; 
     bottom: -310px; 
+=======
+
+body { 
+  background-image: url("images/horizon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#heading {
+  color: white;
 }
 
 #uranus {
