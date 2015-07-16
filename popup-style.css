@@ -1,0 +1,71 @@
+#sun
+{
+  position: absolute;
+  top:30px;
+  left:0px;
+  background-color: yellow;
+  width:100%;
+  height: 200px;
+  width:200px;
+  border-radius:100%;
+}
+
+#mars
+{
+  position:relative;
+  top:30px;
+  left:200px;
+  background-color: orange;
+  width:100%;
+  height: 200px;
+  width:200px;
+  border-radius:100%;
+}
+
+#header
+{
+  background-color: #3D3D1F;
+  width:300px;
+}
+
+#popup #header 
+{
+/*   color: white; */
+  text-align: center;
+/*   margin-left:30px; */
+}
+
+#content
+{
+  position:relative;
+  background-color: #777762;
+  width:300px;
+  height: auto;
+  bottom:16px;
+  z-index:-1;
+}
+
+#content p
+{
+  text-align:center;
+  padding: 2px;
+}
+
+#popup
+{
+  position:relative;
+  top:50px;
+  left:0px;
+  display:block;
+}
+
+#neptune
+{
+  position:relative;
+  top:30px;
+  left:400px;
+  background-color: blue;
+  height: 200px;
+  width:200px;
+  border-radius:100%;
+}
