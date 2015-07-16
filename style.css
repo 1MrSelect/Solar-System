@@ -1,30 +1,30 @@
 body {
-  background-image: url("http://blenderartists.org/forum/attachment.php?attachmentid=144817&d=1308500563");
-   background-size: cover;
+  background-image: url("http://media.giphy.com/media/13TDSwIbJEyARa/giphy.gif");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 #sun {
   position:relative;
-  height: 100px;
-  width: 100px;
-  left: 550px;
-   bottom: -180px;
+  height: 200px;
+  width: 200px;
+  left: 520px;
+  bottom: -220px;
 }
 
 #mercury {
   position: relative;
-  height: 30px;
-  width: 30px;
-  left: 580px; 
-    bottom: -180px;
+  height: 25px;
+  width: 25px;
+  left: 540px; 
+  bottom: -180px;
 }
 
 #venus {
   position: relative;
   height: 30px;
   width: 30px;
-  left: 590px; 
+  left: 550px; 
     bottom: -90px;
 }
 
@@ -32,64 +32,122 @@ body {
   position: relative;
   height: 30px;
   width: 30px;
-  right: -410px; 
-   bottom: -5px;
+  right: -420px; 
+  bottom: 15px;
 }
 
 #mars {
   position: relative;
-  height: 30px;
-  width: 30px;
-  left: 200px; 
-    bottom: -350px;
+  height: 25px;
+  width: 25px;
+  left: 170px; 
+  bottom: -250px;
 }
 
 #jupiter {
   position: relative;
-  height: 50px;
-  width: 50px;
+  height: 130px;
+  width: 130px;
   left: 500px; 
-   bottom: -500px;
+  bottom: -450px;
 }
 
 #saturn {
   position: relative;
-  height: 70px;
-  width: 70px;
-   left: 673px; 
-    bottom: -310px; 
-=======
-
-body { 
-  background-image: url("images/horizon.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 60px;
+  width: 80px;
+  left: 665px; 
+  bottom: -310px; 
 }
 
-#heading {
-  color: white;
+#star{
+  position: relative;
+  height: 30px;
+    width: 30px;
+  left: 625px;
+  bottom: -265px;
 }
+
 
 #uranus {
   position: relative;
   height: 30px;
   width: 30px;
-  left: 693px; 
-   bottom: -50px; 
+  left: 700px; 
+  bottom: -50px; 
 }
 
 #neptune {
   position: relative;
   height: 30px;
   width: 30px;
-  left: 550px; 
-   bottom: 550px; 
+  left: -380px; 
+   bottom: -20px; 
 }
 
 #pluto {
   position: relative;
   height: 50px;
   width: 50px;
-   left: 600px; 
-    bottom: 600px; 
+   left: -560px; 
+   bottom: -520px; 
 }
+
+/* #ship {
+  position: relative;
+  height: 50px;
+  width: 50px;
+   left: -100px; 
+   bottom: -220px;
+} */
+
+/* #pluto {
+  position:relative;
+  height: 100px;
+  width: 75px;
+  left: -122px;
+  bottom: -170px;
+} */
+/* 
+///   POPUP CSS */
+
+#header
+{
+  font-size: 20px;
+  background-color: white;
+    font-weight: bold;
+  width:300px;
+}
+
+#popup #header 
+{
+/*   color: white; */
+  text-align: center;
+/*   margin-left:30px; */
+}
+
+#content
+{
+  font-size: 20px;
+ font-weight: bold;
+  background-color: white;
+  width:300px;
+  height: auto;
+  z-index:-1;
+}
+
+#content p
+{
+  text-align:center;
+  padding: 2px;
+}
+
+#popup
+{
+  position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+
