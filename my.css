@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 
 body { 
-  background-image: url("images/space.jpg");
+  background-image: url("images/29.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -27,7 +27,7 @@ body {
   height: auto;
   width: 100%;
   position: absolute;
-  bottom: -150px;
+  bottom: -285px;
   text-align: center;
 }
 
@@ -65,5 +65,24 @@ body {
   color: #2980b9;
 }
 
+#instructions p {
+  font-family: "helvetica";
+  color: white;
+  font-size: 200%;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#instructions h3 {
+  font-family: "helvetica";
+  color: white;
+  font-size: 200%;
+}
+
+#instructions #footer {
+  width: 100%;
+  font-size: 75%;
+}
 
 

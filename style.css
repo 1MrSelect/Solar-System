@@ -1,6 +1,4 @@
 body {
-  position:relative;
-  background-image: url("http://media.giphy.com/media/13TDSwIbJEyARa/giphy.gif");
   background-size: cover;
   background-repeat: no-repeat;
   z-index:-1 !important;
