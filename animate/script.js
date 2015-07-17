@@ -222,6 +222,8 @@ $(function(){
        $("#uranus-orbit").removeClass("animate");
        $("#neptune-orbit").removeClass("animate");
        $("#pluto-orbit").removeClass("animate");
+      //POPUP IS HIDDEN
+       $("#popup").show();
        $("a").html("START");
        paused = true;
     }
@@ -236,6 +238,7 @@ $(function(){
        $("#uranus-orbit").addClass("animate");
        $("#neptune-orbit").addClass("animate");
        $("#pluto-orbit").addClass("animate");
+       $("#popup").hide();
        $("a").html("RESET");
        paused = false;
     }
