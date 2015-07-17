@@ -73,8 +73,8 @@ body {
   position: relative;
   height: 30px;
   width: 30px;
-  left: 700px; 
-  bottom: -50px; 
+  left: 650px; 
+  bottom: 30px; 
 }
 
 #neptune {
@@ -89,8 +89,8 @@ body {
   position: relative;
   height: 50px;
   width: 50px;
-   left: -560px; 
-   bottom: -520px; 
+   left: -600px; 
+   bottom: -420px; 
 }
 
 /* #ship {
@@ -101,7 +101,7 @@ body {
    bottom: -220px;
 } */
 
-/* #pluto {
+/* #kanye {
   position:relative;
   height: 100px;
   width: 75px;

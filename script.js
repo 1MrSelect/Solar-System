@@ -160,32 +160,32 @@ $(function(){
   
   $("#mercury").click(function(){
     $("#header").html("MERCURY");
-    $("#content").html("<br><b>Mass:</b> 10% of earth's mass<br><b>Gravity:</b> 37% of earth’s<br><b>Atmosphere:</b> Mercury's atmosphere contains small amounts of hydrogen, helium, and oxygen<br><b>Orbit Period:</b> 58d 15h 30m <br><b>Planet Day:</b> 88 days<br><b>Not so fun fact:</b> Mercury is the smallest planet in the Solar System");
+    $("#content").html("<br><span>Mass:</span> 10% of earth's mass<br><span>Gravity:</span> 37% of earth’s<br><span>Atmosphere:</span> Mercury's atmosphere contains small amounts of hydrogen, helium, and oxygen<br><span>Orbit Period:</span> 58d 15h 30m <br><span>Planet Day:</span> 88 days<br><span>Not so fun fact:</span> Mercury is the smallest planet in the Solar System");
   });
   
   $("#venus").click(function(){
     $("#header").html("VENUS");
-    $("#content").html("<br><b>Mass:</b> 81%<br><b>Gravity:</b> 90%<br><b>Atmosphere:</b>The atmosphere of Venus is very thick and is about 90 times more massive than Earth's atmosphere. It is mostly carbon dioxide gas<br><b>Orbit Period:</b> 225 days<br><b>Planet Day:</b>116d 18h<br><b>Not so fun fact:</b>Venus is so bright it is sometimes mistaken for a UFO");
+    $("#content").html("<br><span>Mass:</span> 81%<br><span>Gravity:</span> 90%<br><span>Atmosphere:</span>The atmosphere of Venus is very thick and is about 90 times more massive than Earth's atmosphere. It is mostly carbon dioxide gas<br><span>Orbit Period:</span> 225 days<br><span>Planet Day:</span>116d 18h<br><span>Not so fun fact:</span>Venus is so bright it is sometimes mistaken for a UFO");
   });
   
   $("#earth").click(function(){
     $("#header").html("EARTH");
-    $("#content").html("<b>Touch The SKY- Kanye West</b>");
+    $("#content").html("<span>Touch The SKY- Kanye West</span>");
   });
   
   $("#mars").click(function(){
     $("#header").html("MARS");
-    $("#content").html("<br><b>Mass:</b> 0.1x<br><b>Gravity:</b> 0.38x<br><b>Atmosphere:</b> 95% carbon dioxide, 3% nitrogen, 2% etc.<br><b>Orbit Period:</b> 687 days<br><b>Planet Day:</b> 1 day 40 mins<br><b>Fun Fact:</b> Mars has carbon dioxide snow clouds.");
+    $("#content").html("<br><span>Mass:</span> 0.1x<br><span>Gravity:</span> 0.38x<br><span>Atmosphere:</span> 95% carbon dioxide, 3% nitrogen, 2% etc.<br><span>Orbit Period:</span> 687 days<br><span>Planet Day:</span> 1 day 40 mins<br><span>Fun Fact:</span> Mars has carbon dioxide snow clouds.");
   });
   
   $("#jupiter").click(function(){
     $("#header").html("JUPITER");
-    $("#content").html("<br><b>Mass:</b> 317x<br><b>Gravity:</b>  2.4x<br><b>Atmosphere:</b> 90% hydrogen 10% helium<br><b>Orbit Period:</b> 12 years<br><b>Planet Day:</b> 9.8 hours<br><b>Not so fun fact:</b>  Inside it’s atmosphere temperatures of around 70 degrees can be found.");
+    $("#content").html("<br><span>Mass:</span> 317x<br><span>Gravity:</span>  2.4x<br><span>Atmosphere:</span> 90% hydrogen 10% helium<br><span>Orbit Period:</span> 12 years<br><span>Planet Day:</span> 9.8 hours<br><span>Not so fun fact:</span>  Inside it’s atmosphere temperatures of around 70 degrees can be found.");
   });
   
    $("#saturn").click(function(){
     $("#header").html("SATURN");
-    $("#content").html("<br><b>Mass:</b> 17x<br><b>Gravity:</b> 1.06x<br><b>Atmosphere:</b> Saturn is made up approximately 75% hydrogen and 25% helium<br><b>Orbit Period:</b> 29 years.<br><b>Planet Day:</b> 10 hours.<br><b>Not so fun fact:</b> It’s ring is made out of ice chunks.");
+    $("#content").html("<br><span>Mass:</span> 17x<br><span>Gravity:</span> 1.06x<br><span>Atmosphere:</span> Saturn is made up approximately 75% hydrogen and 25% helium<br><span>Orbit Period:</span> 29 years.<br><span>Planet Day:</span> 10 hours.<br><span>Not so fun fact:</span> It’s ring is made out of ice chunks.");
   });
   
   
@@ -193,18 +193,18 @@ $(function(){
   
   $("#uranus").click(function(){
     $("#header").html("URANUS");
-    $("#content").html("<br><b>Mass:</b> 15x<br><b>Gravity:</b> 0.9 of earth.<br><b>Atmosphere:</b> Gas, the blue color is from methane.<br><b>Orbit Period:</b> 21 years.<br><b>Planet Day:</b> 17 hours 15 minutes<br><b>Not so fun fact:</b> Because of it's tilt Uranus's seasons take 20 years.");
+    $("#content").html("<br><span>Mass:</span> 15x<br><span>Gravity:</span> 0.9 of earth.<br><span>Atmosphere:</span> Gas, the blue color is from methane.<br><span>Orbit Period:</span> 21 years.<br><span>Planet Day:</span> 17 hours 15 minutes<br><span>Not so fun fact:</span> Because of it's tilt Uranus's seasons take 20 years.");
   });
   
   
   $("#neptune").click(function(){
     $("#header").html("NEPTUNE");
-    $("#content").html("<br><b>Mass:</b> 17x<br><b>Gravity:</b> 1.2x<br><b>Atmosphere:</b> Neptune's atmosphere is made up predominantly of hydrogen and helium, with some methane. Methane makes it blue.<br><b>Orbit Period:</b> 165 years<br><b>Planet Day:</b> 16 hours.<br><b>Fun Fact:</b> Neptune's winds can reach 700 mph.");
+    $("#content").html("<br><span>Mass:</span> 17x<br><span>Gravity:</span> 1.2x<br><span>Atmosphere:</span> Neptune's atmosphere is made up predominantly of hydrogen and helium, with some methane. Methane makes it blue.<br><span>Orbit Period:</span> 165 years<br><span>Planet Day:</span> 16 hours.<br><span>Fun Fact:</span> Neptune's winds can reach 700 mph.");
   });
   
   $("#pluto").click(function(){
     $("#header").html("PLUTO");
-    $("#content").html("<br><b>Mass:</b> 0.00218 times the earth.<br><b>Gravity:</b> 1/12th the strength of earth's.<br><b>Atmosphere:</b> Has a nitrogen atmosphere that it is slowly loosing.<br><b>Orbit Period:</b> 249 earth years.<br><b>Planet Day:</b> 6.39 earth days.<br><b>Not so fun fact:</b> It is the second largest dwarf planet. It is one third frozen water.");
+    $("#content").html("<br><span>Mass:</span> 0.00218 times the earth.<br><span>Gravity:</span> 1/12th the strength of earth's.<br><span>Atmosphere:</span> Has a nitrogen atmosphere that it is slowly loosing.<br><span>Orbit Period:</span> 249 earth years.<br><span>Planet Day:</span> 6.39 earth days.<br><span>Not so fun fact:</span> It is the second largest dwarf planet. It is one third frozen water.");
   });
   
   
